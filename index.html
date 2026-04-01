@@ -40,26 +40,26 @@
         <div class="w-full max-w-xl">
             <div
                 class="bg-white shadow-xl rounded-2xl p-10 text-center transition hover:shadow-2xl border border-gray-200">
-                <div class="text-7xl md:text-8xl font-bold text-gray-800 mb-6">
+                <div id="word-display" class="text-7xl md:text-8xl font-bold text-gray-800 mb-6">
                     先生
                 </div>
-                <div class="text-xl text-gray-600 mb-2">せんせい</div>
-                <div class="text-sm text-gray-500">Sensei</div>
+                <div id="reading-display" class="text-xl text-gray-600 mb-2">せんせい</div>
+                <div id="romaji-display" class="text-sm text-gray-500">Sensei</div>
             </div>
             <div class="flex justify-center gap-3 items-center mt-6">
-                <button class="px-5 py-2 rounded-xl bg-gray-200 hover:bg-gray-300 transition font-medium">
+                <button id="prev-btn" class="px-5 py-2 rounded-xl bg-gray-200 hover:bg-gray-300 transition font-medium">
                     Prev
                 </button>
-                <button
+                <button id="flip-btn"
                     class="px-12 py-4 rounded-xl bg-red-500 text-white hover:bg-red-600 transition text-xl font-bold shadow hover:shadow-lg cursor-pointer">
                     Flip
                 </button>
-                <button class="px-5 py-2 text-white rounded-xl bg-green-700 hover:bg-green-800 transition font-medium">
+                <button id="next-btn" class="px-5 py-2 text-white rounded-xl bg-green-700 hover:bg-green-800 transition font-medium">
                     Next
                 </button>
             </div>
         </div>
     </div>
 </body>
-
+<script src="app.js"></script>
 </html>
